@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    .scheme {
+        &__items1 {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__item {
+            margin-top: 5px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .scheme {
+        &__items1 {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__items2 {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__item {
+            margin-top: 20px;
+        }
+    }
+}

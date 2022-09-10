@@ -1,0 +1,38 @@
+@media (max-width: 1140px) {
+    .work {
+        &__wrapper {
+            padding: 0 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .title {
+        font-size: 20px;
+    }
+    .work {
+        &__items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        &__title {
+            font-size: 17px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 13px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.scheme {
+    min-height: 450px;
+    background-color: #f3f3f3;
+    padding: 50px 0;
+    &__wrapper {
+        margin-top: 35px;
+        
+    }
+    &__items1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items2 {
+        margin: 0 auto;
+        margin-top: 50px;
+        max-width: 830px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__item {
+        min-height: 115px;
+        width: 260px;
+        &-logo {
+            text-align: center;
+        }
+        &-title {
+            margin-top: 12px;
+            text-align: center;
+            color: $main_color;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        &-descr {
+            margin-top: 12px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

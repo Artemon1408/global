@@ -1,0 +1,24 @@
+@media (max-width: 991px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: unset;
+    }
+    .card {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form {
+        flex-direction: column;
+        &__input {
+            margin-top: 5px;
+        }
+        &__logo {
+            &-substr {
+                top: -70px;
+            }
+        }
+    }
+}

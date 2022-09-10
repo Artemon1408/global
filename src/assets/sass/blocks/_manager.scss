@@ -1,0 +1,16 @@
+.manager {
+    min-height: 440px;
+    background: url('../images/bg/bg_3.jpg') center (center/cover) no-repeat;
+    &__logo {
+        padding: 60px 0 20px 0;
+        text-align: center;
+    }
+    &__descr {
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 21px;
+        color: #fff;
+        text-align: center;
+        max-width: 840px;
+    }
+}

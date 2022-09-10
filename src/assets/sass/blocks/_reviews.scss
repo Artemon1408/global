@@ -1,0 +1,126 @@
+.reviews {
+    position: relative;
+    min-height: 470px;
+    padding: 45px 0 70px 0;
+    &__descr {
+        margin-top: 18px;
+        text-align: center;
+        font-weight: 300;
+        font-size: 21px;
+    }
+    &__slider {
+        position: relative;
+        margin-top: 30px;
+        
+    }
+}
+
+.slider {
+    transition: .6s all;
+    &__inner {
+        max-width: 550px;
+        margin: 0 auto;
+        
+        width: 100%;
+        
+        
+    }
+    
+    
+    &__icon {
+        text-align: center;
+    }
+    &__title {
+        margin-top: 17px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 14px;
+        text-align: center;
+    }
+
+}
+
+
+.prev {
+    position: absolute;
+    top: 35px;
+    left: 293px;
+    
+    z-index: 2;
+    border: none;
+    background: #FFF;
+}
+.next {
+    position: absolute;
+    top: 35px;
+    
+    right: 293px;
+    z-index: 3;
+    border: none;
+    background: #FFF;
+}
+
+:root {
+    --animate-duration: 1s;
+    
+}
+
+.animate__animated {
+    
+    animation-duration: 1s;
+    
+    animation-duration: var(--animate-duration);
+    
+    animation-fill-mode: both;
+}
+
+
+
+@keyframes slideInLeft {
+    from {
+        
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+       
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.animate__slideInLeft {
+    
+    animation-name: slideInLeft;
+}
+
+@keyframes slideInRight {
+    from {
+        
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.animate__slideInRight {
+    
+    animation-name: slideInRight;
+}
+
+
+
+

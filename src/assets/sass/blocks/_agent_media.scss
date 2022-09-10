@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+    .agent {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .agent {
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}

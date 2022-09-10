@@ -1,0 +1,73 @@
+.question {
+    min-height: 440px;
+    padding: 60px 0 80px 0;
+    background: url('../images/bg/bg_4.jpg') center (center/cover) no-repeat;
+    &__write {
+        margin: 0 auto;
+        min-width: 890px;
+        min-height: 295px;
+        background-color: rgba(193, 194, 195, .8);
+        &-header {
+            min-height: 65px;
+            background: #25333c;
+            
+        }
+        &-title {
+            padding-top: 18px;
+            margin-bottom: 0;
+            text-align: center;
+            color: #fff;
+            font-weight: 700;
+            font-size: 19px;
+            
+        }
+        &-descr {
+            padding-bottom: 18px;
+            text-align: center;
+            color: #fff;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 9px;
+        }
+        
+    }
+    &__content {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    &__form {
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 42px 70px 65px;
+        grid-template-columns: 265px 265px 265px;
+        gap: 5px;
+        &-input {
+            border-radius: 20px 20px 20px 20px;
+            border: 1px solid #c4c4c4;
+        }
+        &-area {
+            border-radius: 8px 8px 8px 8px;
+            border: 1px solid #c4c4c4;
+            resize: none;
+        }
+    }
+    &__btn {
+        margin-top: 16px;
+        grid-column: 2 / 3;
+    }
+.horizontal {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+}
+
+.btn_fquest {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+}
+
+
+

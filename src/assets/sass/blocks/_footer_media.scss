@@ -1,0 +1,52 @@
+@media (max-width: 991px) {
+    .footer {
+        
+        &__contacts {
+            justify-content: center;
+        }
+        
+        &__contact {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        &__items {
+                min-width: 250px;
+                justify-content: center;
+            }
+        &__subtitle {
+            display: none;
+        }
+        &__dev {
+            justify-content: center;
+            &-text {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .footer {
+        &__items {
+            min-width: 30%;
+        }
+        &__info {
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__polit {
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__dev-logo {
+            margin-top: 5px;
+        }
+    }
+}
